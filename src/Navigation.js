@@ -10,9 +10,6 @@ class Navigation extends Component {
         <nav>
           <div className="logo" />
           <ul className="menu">
-            <div className="menu__item toggle">
-              <span />
-            </div>
             <li className="menu__item">
               <Link to="/">Home</Link>
             </li>
