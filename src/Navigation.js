@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom"
 import logo from "./assets/logo.svg";
-
+import About from "./About";
+import App from "./App";
 
 class Navigation extends Component {
   render() {
@@ -12,9 +14,10 @@ class Navigation extends Component {
               <span />
             </div>
             <li className="menu__item">
-              <a href="doc.html" className="link link--dark">
-                <i className="fa fa-book" /> About
-              </a>
+              <Link to="/">Home</Link>
+            </li>
+            <li className="menu__item">
+              <Link to="/about">About</Link>
             </li>
             <li className="menu__item">
               <a href="https://github.com/kapicaluk" className="link link--dark">
@@ -22,13 +25,12 @@ class Navigation extends Component {
               </a>
             </li>
             <li className="menu__item">
-              <a href="https://github.com/kapicaluk" className="link link--dark">
-                <i className="fa fa-github" /> Projects
-              </a>
+              <Link to="/projects">Projects</Link>
             </li>
           </ul>
         </nav>
-        </div>
+        <div />
+      </div>;
   }
 }
 

@@ -1,9 +1,8 @@
-/* nav specialized to landing page */
 
 .logo {
   background: url('./assets/logo.svg') no-repeat;
   background-size: contain;
-  margin: -1rem -15px -3px 1rem
+  margin: -1rem -15px -3px 1rem;
 }
 
 nav {
