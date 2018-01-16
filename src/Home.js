@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navigation from "./Navigation";
 
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -48,8 +49,7 @@ class Home extends Component {
   render() {
     const { textDisplay } = this.state;
 
-    return (
-      <div>
+    return <div>
         <div className="hero" />
         <div className="hero__terminal">
           {console.log(this.state)}
@@ -57,8 +57,7 @@ class Home extends Component {
             <code className="shell-session demo">~ ${textDisplay}</code>
           </pre>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

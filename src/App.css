@@ -14,6 +14,7 @@ nav {
   text-align: right;
   overflow: hidden;
   list-style: none;
+  margin-right: 3em;
 }
 
 .toggle {
@@ -75,7 +76,7 @@ nav {
 .hero {
   text-align: center;
   background-color: var(--bg-color);
-  padding: 2rem 0 10rem 0;
+  padding: 5rem 0 10rem 0;
 }
 
 .hero__title {
@@ -89,7 +90,7 @@ nav {
 
 .hero__terminal {
   width: 80%;
-  margin: -5rem auto 3rem auto;
+  margin: -5rem auto 15rem auto;
   text-align: left;
   color: #33ff66;
   padding: 0 1rem;

@@ -1,33 +1,38 @@
 import React, { Component } from "react";
+import './Navigation.css'
 import {Link} from "react-router-dom"
 import logo from "./assets/logo.svg";
 import About from "./About";
 import App from "./App";
 
+
 class Navigation extends Component {
   render() {
-    return <div className="main">
-        <nav>
-          <div className="logo" />
-          <ul className="menu">
-            <li className="menu__item">
+    return <div>
+        {" "}
+        <header class="header">
+          <div class="logo" />
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn">
+            <span class="navicon" />
+          </label>
+          <ul class="menu">
+            <li>
               <Link to="/">Home</Link>
             </li>
-            <li className="menu__item">
+            <li>
               <Link to="/about">About</Link>
             </li>
-            <li className="menu__item">
+            <li>
               <Link to="/projects">Projects</Link>
             </li>
-            <li className="menu__item">
-              <a href="https://github.com/kapicaluk" className="link link--dark">
-                <i className="fa fa-github" /> Github
-              </a>
+            <li>
+              <a href="https://github.com/kapicaluk">Github</a>
             </li>
           </ul>
-        </nav>
-        <div />
+        </header>
       </div>;
+
   }
 }
 
