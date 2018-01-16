@@ -1,20 +1,50 @@
 import React, { Component } from "react";
-import logo from "./assets/logo.svg";
-import "./Projects.css";
+import "./Projects.css"
 
 class Projects extends Component {
   render() {
-    return (<div>
-          <section>
-            <article>
-              <figure>
-                <h2>@Xavisu</h2>
-                <p>Hola, vengo a flotar. Front~end</p>
-              </figure>
-              <img alt src="https://pbs.twimg.com/profile_images/791963745178181632/rtQQ36JW.jpg" />
-            </article>
-          </section>
-      </div>)
+    return <div className="projects">
+        <div class="col">
+          <h1>1</h1>
+          <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin
+            eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam
+            Aristippi in prima commendatione poneret. Sin te auctoritas
+            commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
+          </p>
+        </div>
+        <div class="col">
+          <h1>1</h1>
+          <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin
+            eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam
+            Aristippi in prima commendatione poneret. Sin te auctoritas
+            commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
+          </p>
+        </div>
+        <div class="col">
+          <h1>1</h1>
+          <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin
+            eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam
+            Aristippi in prima commendatione poneret. Sin te auctoritas
+            commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
+          </p>
+        </div>
+        <div class="col">
+          <h1>1</h1>
+          <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin
+            eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam
+            Aristippi in prima commendatione poneret. Sin te auctoritas
+            commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
+          </p>
+        </div>
+      </div>;
   }
 }
 

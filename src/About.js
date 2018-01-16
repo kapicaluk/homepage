@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import Typing from "react-typing-animation";
 class About extends Component {
   render() {
     return(
-      <div></div>
+      <div>
+      <h1>About mee</h1>
+      </div>
     )
   }
 }
 
 export default About;
-
-/*
-<section>
-		
-    */

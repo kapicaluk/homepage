@@ -17,12 +17,12 @@ class Navigation extends Component {
               <Link to="/about">About</Link>
             </li>
             <li className="menu__item">
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li className="menu__item">
               <a href="https://github.com/kapicaluk" className="link link--dark">
                 <i className="fa fa-github" /> Github
               </a>
-            </li>
-            <li className="menu__item">
-              <Link to="/projects">Projects</Link>
             </li>
           </ul>
         </nav>
