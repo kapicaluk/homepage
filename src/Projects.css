@@ -21,7 +21,7 @@
 @media screen and (max-width: 1000px){
     .projects {
         flex-direction: column;
-        padding: 1px;
+        padding: 10em 0;
         flex-wrap: nowrap;
     }
     .col {
@@ -31,3 +31,4 @@
           flex: 0 0; 
     }
 }
+
