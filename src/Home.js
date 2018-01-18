@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navigation from "./Navigation";
 
 
 class Home extends Component {

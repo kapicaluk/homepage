@@ -1,22 +1,17 @@
 import React, { Component } from "react";
 import './Navigation.css'
 import {Link} from "react-router-dom"
-import logo from "./assets/logo.svg";
-import About from "./About";
-import App from "./App";
-
 
 class Navigation extends Component {
   render() {
     return <div>
-        {" "}
-        <header class="header">
-          <div class="logo" />
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn">
-            <span class="navicon" />
+        <header className="header">
+          <div className="logo" />
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon" />
           </label>
-          <ul class="menu">
+          <ul className="menu">
             <li>
               <Link to="/">Home</Link>
             </li>

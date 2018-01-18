@@ -4,7 +4,7 @@ import "./Projects.css"
 class Projects extends Component {
   render() {
     return <div className="projects">
-        <div class="col">
+        <div className="col">
           <h1>1</h1>
           <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
           <p>
@@ -14,7 +14,7 @@ class Projects extends Component {
             commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h1>1</h1>
           <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
           <p>
@@ -24,7 +24,7 @@ class Projects extends Component {
             commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h1>1</h1>
           <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
           <p>
@@ -34,7 +34,7 @@ class Projects extends Component {
             commovebat, nobisne omnibus et Platoni ipsi nescio quem illum
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h1>1</h1>
           <img src="http://img.youtube.com/vi/w72mSp2WKW0/2.jpg" />
           <p>

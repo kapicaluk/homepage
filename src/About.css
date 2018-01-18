@@ -1,0 +1,23 @@
+.about {
+  padding: 20vh;
+  display: flex;
+}
+.about > img {
+  max-height: 30vh;
+  margin: 5vh;
+}
+.about > img:hover {
+  border: 3px solid black;
+}
+
+.bio_text {
+  order: 2;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bio_text{
+        flex-direction: column;
+        order: 2;
+    }
+}
