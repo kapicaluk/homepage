@@ -7,17 +7,24 @@ class About extends Component {
         <div className="bio_text">
           <h1>About mee</h1>
           <p>
-            Lorem ipsum dolor amet taxidermy cliche vegan man braid hella la
-            croix. Brunch yr trust fund VHS pork belly. Put a bird on it
-            poutine irony plaid kitsch woke offal wolf seitan asymmetrical
-            occupy. Everyday carry deep v green juice williamsburg iPhone
-            gastropub. Tumblr quinoa single-origin coffee, lo-fi photo booth
-            cred brunch locavore copper mug jean shorts. Glossier
-            kickstarter kombucha prism vinyl single-origin coffee knausgaard
-            offal taiyaki yuccie. Blue bottle woke lo-fi hashtag. Gentrify
-            single-origin coffee hot chicken tofu disrupt chambray marfa
-            vexillologist microdosing austin. Photo booth deep v mlkshk
-            intelligentsia readymade.
+            You probably haven't heard of them chia microdosing readymade
+            helvetica. Shoreditch offal bushwick pinterest pour-over swag
+            kickstarter, enamel pin cronut hoodie truffaut. Before they sold
+            out cold-pressed fam chartreuse. Jean shorts craft beer yr
+            vinyl, kinfolk kickstarter bitters master cleanse before they
+            sold out health goth retro shaman. Poke chia ethical gentrify,
+            stumptown literally kale chips banjo drinking vinegar 90's. Food
+            truck dreamcatcher before they sold out mlkshk, kinfolk leggings
+            hoodie celiac. Blue bottle lyft pop-up, scenester before they
+            sold out forage bitters af dreamcatcher vape meggings mumblecore
+            biodiesel kickstarter.</p>
+            <p>Readymade aesthetic blue bottle bicycle
+            rights raw denim pabst taxidermy flexitarian meh ramps neutra
+            fanny pack. Sustainable shabby chic snackwave tote bag
+            cold-pressed. IPhone hexagon ethical paleo coloring book,
+            gastropub wolf chillwave locavore pour-over glossier. Squid
+            craft beer chartreuse distillery. PBR&B meditation blog pork
+            belly.
           </p>
         </div>
         <img src="https://res.cloudinary.com/kapicaluk/image/upload/c_scale,h_487/v1516255416/DSC05830_small_phrdb4.jpg" />
