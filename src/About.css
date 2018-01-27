@@ -10,8 +10,7 @@
 .bio-text {
   display: flex;
   flex-flow: row;
-  margin: 3rem 3em 0em;
-  padding: 0rem 5em 0em;
+  margin: 9em 3em 0em;
   background-color: #F8F8FA;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
   animation: fadeUp 1s;
@@ -24,6 +23,10 @@
     padding: 10px;
 }
 .bio-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
 }
 
 @media screen and (max-width: 1300px) {
@@ -41,16 +44,15 @@
 }
 
 @media screen and (max-width: 800px){
-    .about {
+  .about {
       flex-direction: row;
       padding: 16vh 0 0;
     }
-    .about > img {
-      height: 20vh;
-      margin: 7em 3em;
+    .about img {
+
     }
     .bio-text {
-      margin: 5em -2em 3em;
+      margin: 3em 1em;
       flex-direction: column;
     }
 }
@@ -60,8 +62,15 @@
     flex-direction: column;
     padding: 16vh 0 0;
   }
-  .about>img {
-    height: 36vh;
-    margin: 4em 3em 0;
+  .about img {
+    width: 15em;
+    height: 15em;
+  }
+  .bio-text {
+    padding: 1em 1em;
+  }
+  .bio-head {
+    margin: 2px 0px 0px -8px;
+    padding: 3px;
   }
 }
