@@ -1,33 +1,40 @@
 .about {
-  padding: 20vh 0;
-  display: flex;
-}
-.about > img {
-  margin: 3em;
-}
-.about > img:hover {
-  border: 3px solid black;
+  padding: 1em 0;
 }
 
-.bio_text {
-  order: 2;
+.about img {
+  max-height: 400px;
+  max-width: 400px;
+  margin: 1em;
+}
+.bio-text {
+  display: flex;
+  flex-flow: row;
   margin: 3rem 3em 0em;
   padding: 0rem 5em 0em;
   background-color: #F8F8FA;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  animation: fadeUp 1s;
 
+}
+.bio-head {
+    margin-bottom: 1em;
+    background-color: #F7DF1F;
+    position: absolute;
+    padding: 10px;
+}
+.bio-body {
 }
 
 @media screen and (max-width: 1300px) {
   .about {
-    flex-direction: row;
-    padding: 30vh 0 0;
+    padding: 7em 0 0;
   }
   .about>img {
     height: 30vh;
     margin: 5em 2em 0;
   }
-  .bio_text {
+  .bio-text {
     margin: 3rem 1em 0em;
   }
 
@@ -42,8 +49,9 @@
       height: 20vh;
       margin: 7em 3em;
     }
-    .bio_text {
-      margin: 0em -2em 3em
+    .bio-text {
+      margin: 5em -2em 3em;
+      flex-direction: column;
     }
 }
 
@@ -55,8 +63,5 @@
   .about>img {
     height: 36vh;
     margin: 4em 3em 0;
-  }
-  .bio_text {
-
   }
 }

@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import './About.css'
+import avatar from './assets/avatar.jpg'
 
 class About extends Component {
   render() {
     return <div className="about">
-        <div className="bio_text">
-          <h1>About mee</h1>
-          <img src="https://res.cloudinary.com/kapicaluk/image/upload/c_scale,h_487/v1516255416/DSC05830_small_phrdb4.jpg" />
-          <p>
+        <div className="bio-text">
+          <h1 className="bio-head">About mee</h1>
+          <img src={avatar} />
+          <p className="bio-body">
             You probably haven't heard of them chia microdosing readymade
             helvetica. Shoreditch offal bushwick pinterest pour-over swag
             kickstarter, enamel pin cronut hoodie truffaut. Before they sold
