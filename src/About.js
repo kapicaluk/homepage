@@ -6,6 +6,7 @@ class About extends Component {
     return <div className="about">
         <div className="bio_text">
           <h1>About mee</h1>
+          <img src="https://res.cloudinary.com/kapicaluk/image/upload/c_scale,h_487/v1516255416/DSC05830_small_phrdb4.jpg" />
           <p>
             You probably haven't heard of them chia microdosing readymade
             helvetica. Shoreditch offal bushwick pinterest pour-over swag
@@ -27,7 +28,6 @@ class About extends Component {
             belly.
           </p>
         </div>
-        <img src="https://res.cloudinary.com/kapicaluk/image/upload/c_scale,h_487/v1516255416/DSC05830_small_phrdb4.jpg" />
       </div>;
   }
 }

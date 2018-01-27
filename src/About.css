@@ -12,7 +12,10 @@
 .bio_text {
   order: 2;
   margin: 3rem 3em 0em;
-  padding: 0rem 5em 0em
+  padding: 0rem 5em 0em;
+  background-color: #F8F8FA;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -27,7 +30,7 @@
   .bio_text {
     margin: 3rem 1em 0em;
   }
-  
+
 }
 
 @media screen and (max-width: 800px){
