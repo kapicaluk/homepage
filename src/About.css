@@ -21,12 +21,15 @@
     background-color: #F7DF1F;
     position: absolute;
     padding: 10px;
+
 }
 .bio-body {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1em;
+  line-height: 1.6;
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -38,7 +41,7 @@
     margin: 5em 2em 0;
   }
   .bio-text {
-    margin: 3rem 1em 0em;
+    margin: 3em 5em 0em;
   }
 
 }
@@ -50,8 +53,7 @@
     }
     .about img {
 
-    }
-    .bio-text {
+    } .bio-text {
       margin: 3em 1em;
       flex-direction: column;
     }
