@@ -16,11 +16,11 @@ class Projects extends Component {
             facts.
             <hr />
             <a href="https://youtu.be/w72mSp2WKW0">See here</a>
-            <ul>
-              <li>React-Native</li>
-              <li>Redux</li>
-              <li>Clarifai API</li>
-              <li>Firebase</li>
+            <ul class="projects-stack">
+              <li className="projects-btn">React-Native</li>
+              <li className="projects-btn">Redux</li>
+              <li className="projects-btn">Clarifai API</li>
+              <li className="projects-btn">Firebase</li>
             </ul>
           </p>
         </div>
@@ -29,11 +29,11 @@ class Projects extends Component {
           <img src={slackbot} className="projects-img" />
           <p className="projects-copy">
             Slack bot that keeps track of your busy schedule at Fullstack
-            <hr/>
-            <ul>
-              <li>Node.js</li>
-              <li>BotKit Studio</li>
-              <li>OpenWeather API</li>
+            <hr />
+            <ul class="projects-stack">
+              <li className="projects-btn">Node.js</li>
+              <li className="projects-btn">BotKit Studio</li>
+              <li className="projects-btn">OpenWeather API</li>
             </ul>
           </p>
         </div>
@@ -42,12 +42,10 @@ class Projects extends Component {
           <img src={skills} className="projects-img" />
           <p className="projects-copy">
             Skill grid with simple hover effect made with flexbox.
-            <hr/>
-            <ul>
-              <a href="https://kapicaluk.github.io/skills-css/">
-                <li>See here</li>
-              </a>
-              <li>CSS</li>
+            <hr />
+            <a href="https://kapicaluk.github.io/skills-css/">Demo</a>
+            <ul class="projects-stack">
+              <li className="projects-btn">CSS</li>
             </ul>
           </p>
         </div>

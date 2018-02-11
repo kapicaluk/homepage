@@ -30,6 +30,23 @@
 .projects-img {
   width: 100%;
 }
+.projects-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects-btn {
+  border: 1px solid;
+  border-radius: 23px;
+  padding: 7px;
+  text-decoration: none;
+  background-color: #f4f4f4;
+  margin: 5px;
+  text-align: center;
+  color: #432e30;
+
+}
 
 @media screen and (max-width: 1000px) {
   .projects {

@@ -5,7 +5,7 @@ import Projects from './Projects'
 import About from './About'
 import {BrowserRouter as Router, Route, Switch  } from "react-router-dom";
 import Navigation from "./Navigation";
-import Footer from './Footer';
+
 
 class App extends Component {
   render() {
