@@ -3,9 +3,9 @@
   text-align: center;
   align-items: flex-start;
   flex-direction: row;
-  max-height: 100vh;
   padding: 10em 0;
   border: black 10px;
+  justify-content: center;
 }
 
 .col {
@@ -14,6 +14,7 @@
   margin: 10px;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
   background-color: #f8f8fa;
+  max-width: 350px;
 }
 .projects-head {
   margin-bottom: 1em;
@@ -41,7 +42,7 @@
   border-radius: 23px;
   padding: 7px;
   text-decoration: none;
-  background-color: #f4f4f4;
+  background-color:rgba(244, 244, 244, 0);
   margin: 5px;
   text-align: center;
   color: #432e30;
@@ -53,11 +54,11 @@
     flex-direction: column;
     padding: 10em 0;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .col {
     animation: fadeUp 2s;
     margin: 10px;
-    max-width: none;
     flex: 0 0;
   }
 }
